@@ -1,9 +1,7 @@
-import { Configuration } from "webpack";
-import { smart as extend } from "webpack-merge";
-import base from "./webpack.config.base";
+import extendBase from "./extend-base";
 
 /** @public */
-const config: Configuration = extend(base, {
+const config = extendBase({
 	mode: "development",
 	devtool: "inline-source-map",
 	devServer: {

@@ -1,7 +1,7 @@
-import { Configuration } from "webpack";
+import { smart as extend } from "webpack-merge";
 
 /** @public */
-const config: Configuration = {
+const extendBase = extend.bind(null, {
 	// TODO: entry
 	resolve: {
 		extensions: [ ".js", ".ts", ".tsx" ],
@@ -18,6 +18,6 @@ const config: Configuration = {
 	// TODO: plugins
 	// TODO: optimization
 	// TODO: output
-};
+});
 
-export default config;
+export default extendBase;

@@ -19,7 +19,6 @@
   "homepage": "https://github.com/parzhitsky/webpack-triage#readme",
   "devDependencies": {
     "@types/node": "13.5.0",
-    "@types/webpack": "4.41.3",
     "@types/webpack-dev-server": "3.9.0",
     "@types/webpack-merge": "4.1.5",
     "ts-loader": "6.2.1",
