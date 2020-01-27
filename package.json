@@ -1,5 +1,5 @@
 {
-  "name": "enzyme-triage",
+  "name": "webpack-triage",
   "version": "0.0.1",
   "description": "",
   "main": "src/index.js",
@@ -7,14 +7,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "github:parzhitsky/enzyme-triage",
+  "repository": "github:parzhitsky/webpack-triage",
   "keywords": [],
   "author": "Dima Parzhitsky <parzhitsky@gmail.com>",
   "license": "",
   "bugs": {
-    "url": "https://github.com/parzhitsky/enzyme-triage/issues"
+    "url": "https://github.com/parzhitsky/webpack-triage/issues"
   },
-  "homepage": "https://github.com/parzhitsky/enzyme-triage#readme",
+  "homepage": "https://github.com/parzhitsky/webpack-triage#readme",
   "devDependencies": {
     "@types/node": "13.5.0"
   }
